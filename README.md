@@ -14,3 +14,14 @@ To make this app work, you need:
   4. Have a web server exposed on the Internet;
   5. Have a MySQL database running on your computer;
 
+To run this app:
+ 1. schedules.sql is the sql script which can create a MySQL table and insert data;
+ 2. run com.mytwilio.servlet.ScheduleServlet.java on your web server and copy your public of this servlet into your twilio number's messaging request url.
+ 3. Text your twilio phone number according the rules I wrote above.
+ 
+ps: 
+ 1. I'm working on more functions and for more complexed databases, planning to use Spring and Hibernate framework.
+ 2. My first Twilio Account is currently suspended due to a lack of funds :(
+ 3. Why I can't find a twilio number can both do voice and messaging work? I have to release and buy a new one and repeat this work. I think that's the main reason my account get suspended.
+
+
