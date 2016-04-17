@@ -5,7 +5,7 @@ The purpose of this app is to get the bus schedule by sending a sms to a specifi
   3. If the user text "1+route", reply the schedule of this route(e.g. 13 is for route 3); 
   4. If the user text "2+stop", reply the schedule of this stop(e.g. 2A is for stop A); 
   5. If the user text "route+stop+time", reply the specific schedule of this line(e.g. 3D1000 is for route 3 arrive at stop D at 10:00); 
-  6. If the user texted anything else, reply an error message and a direction.
+  6. If the user text anything else, reply an error message and a direction.
 	
 To make this app work, you need: 
   1. Have a Java development environment with a Web server capable of running Java servlets;
