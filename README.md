@@ -2,17 +2,11 @@
 
 This is a Java app with Twilio API and using maven to manage. 
 The purpose of this app is to get the bus schedule by sending a sms to a specific Twilio phone number. Depends on user's instruction, generate a corresponding response message: 
-
 	If the user texted "1", reply which routes we have; 
-	
 	If the user texted "2", reply which stops we have; 
-	
 	If the user texted "1+route", reply the schedule of this route(e.g. 13 is for route 3); 
-	
 	If the user texted "2+stop", reply the schedule of this stop(e.g. 2A is for stop A); 
-	
 	If the user texted "route+stop+time", reply the specific schedule of this line(e.g. 3D1000 is for route 3 arrive at stop D at 10:00); 
-	
 	If the user texted anything else, reply an error message and a direction.
 	
 To make this app work, you need: 
